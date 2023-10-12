@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://picsum.photos/1080/720?random=1);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    background-size: cover; 
+}
+
+
+.container {
+    justify-content: center;
+    margin: 30px;
+    padding: 40px;
+    max-width: 200%;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    color:#fff
+}
+
+h1 {
+    text-align: center;
+}
+
+.input {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: mediumspringgreen;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: mediumspringgreen;
+}
+.hello{
+    display: flex;
+}
+.pos{
+
+   justify-content: end;
+}
+.post{
+    justify-content: start;
+}
